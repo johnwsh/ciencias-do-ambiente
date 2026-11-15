@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dadosabertos>
+<conjunto>
+				<titulo>Transporte Coletivo de Curitiba</titulo>
+				<descricao>Dados do transporte coletivo de Curitiba, disponibilizado via WebService contendo informações como: Arquivo GTFS, Linhas, Pontos, Itinerários, Posição dos Veículos e Horários de Tabelas.</descricao>
+				<orgaoresponsavel>Urbanização de Curitiba S. A.</orgaoresponsavel>
+				<responsavel>Lucineide Vilar Possebom Wieczorkovski</responsavel>
+				<frequenciaatualizacao>Tempo Real</frequenciaatualizacao>
+				<espectrotemporal>De 2012 até o momento da extração</espectrotemporal>
+				<grupos></grupos>
+				<campos>Ver no dicionário de dados</campos>
+				<observacoes></observacoes>
+				<dados>
+				<dado nome="Documentação WEB-SERVICE – TRANSPORTE COLETIVO DE CURITIBA" arquivo="2024-11-26_Documentação_WEB-SERVICE_–_TRANSPORTE_COLETIVO_DE_CURITIBA.pdf" />
+				</dados>
+				</conjunto>
+</dadosabertos>

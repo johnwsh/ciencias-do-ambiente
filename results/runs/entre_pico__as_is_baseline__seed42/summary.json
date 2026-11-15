@@ -1,0 +1,58 @@
+{
+  "run_id": "entre_pico__as_is_baseline__seed42",
+  "condition_key": "entre_pico",
+  "condition_label": "Entre-Pico Comercial (12:00 - 14:00)",
+  "intervention_key": "as_is_baseline",
+  "intervention_name": "Cenário Base (As-Is)",
+  "tls_mode": "fixed_baseline",
+  "seed": 42,
+  "sim_steps": 180,
+  "geh_validation": {
+    "mean_geh": 1.813,
+    "max_geh": 3.044,
+    "passing_percentage": 100.0,
+    "meets_utfpr_85pct_criterion": true
+  },
+  "top_3_bottlenecks": [
+    {
+      "bottleneck_rank": 1,
+      "point_id": "PT_01_MARIANO_XV",
+      "corridor": "Rua Mariano Torres",
+      "intersection_name": "Rua Mariano Torres x Rua XV de Novembro",
+      "bsi_score": 59.7,
+      "max_queue_m": 68.7,
+      "avg_wait_s": 28.6,
+      "bottleneck_status": "ALERTA (Saturação Moderada)"
+    },
+    {
+      "bottleneck_rank": 2,
+      "point_id": "PT_09_VISCONDE_GUARAPUAVA",
+      "corridor": "Avenida Visconde de Guarapuava",
+      "intersection_name": "Av. Visconde de Guarapuava x Av. Mal. Floriano Peixoto",
+      "bsi_score": 55.6,
+      "max_queue_m": 64.0,
+      "avg_wait_s": 28.8,
+      "bottleneck_status": "ALERTA (Saturação Moderada)"
+    },
+    {
+      "bottleneck_rank": 3,
+      "point_id": "PT_02_MARIANO_ANDRE",
+      "corridor": "Rua Mariano Torres",
+      "intersection_name": "Rua Mariano Torres x Rua André de Barros",
+      "bsi_score": 55.5,
+      "max_queue_m": 67.5,
+      "avg_wait_s": 27.5,
+      "bottleneck_status": "ALERTA (Saturação Moderada)"
+    }
+  ],
+  "network_kpis": {
+    "mean_queue_m": 47.2,
+    "mean_wait_s": 20.8,
+    "mean_speed_kmh": 32.9,
+    "total_co2_kg_h": 394.17,
+    "total_nox_g_h": 1594.18,
+    "total_pmx_g_h": 68.86,
+    "mean_noise_dba": 71.6,
+    "critical_bottlenecks_count": 0
+  }
+}

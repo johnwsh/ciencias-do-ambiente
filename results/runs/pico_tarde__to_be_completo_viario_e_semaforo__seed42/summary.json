@@ -1,0 +1,58 @@
+{
+  "run_id": "pico_tarde__to_be_completo_viario_e_semaforo__seed42",
+  "condition_key": "pico_tarde",
+  "condition_label": "Pico da Tarde (17:00 - 19:00)",
+  "intervention_key": "to_be_completo_viario_e_semaforo",
+  "intervention_name": "To-Be 3: Readequação Viária (Mão/Faixas) + Controle Adaptativo TraCI",
+  "tls_mode": "adaptive_traci_brt",
+  "seed": 42,
+  "sim_steps": 180,
+  "geh_validation": {
+    "mean_geh": 2.049,
+    "max_geh": 5.215,
+    "passing_percentage": 90.0,
+    "meets_utfpr_85pct_criterion": true
+  },
+  "top_3_bottlenecks": [
+    {
+      "bottleneck_rank": 1,
+      "point_id": "PT_09_VISCONDE_GUARAPUAVA",
+      "corridor": "Avenida Visconde de Guarapuava",
+      "intersection_name": "Av. Visconde de Guarapuava x Av. Mal. Floriano Peixoto",
+      "bsi_score": 48.8,
+      "max_queue_m": 47.6,
+      "avg_wait_s": 27.3,
+      "bottleneck_status": "ALERTA (Saturação Moderada)"
+    },
+    {
+      "bottleneck_rank": 2,
+      "point_id": "PT_07_BARAO_RIO_BRANCO",
+      "corridor": "Rua Barão do Rio Branco",
+      "intersection_name": "Rua Barão do Rio Branco x Rua André de Barros",
+      "bsi_score": 43.6,
+      "max_queue_m": 45.0,
+      "avg_wait_s": 23.7,
+      "bottleneck_status": "ALERTA (Saturação Moderada)"
+    },
+    {
+      "bottleneck_rank": 3,
+      "point_id": "PT_01_MARIANO_XV",
+      "corridor": "Rua Mariano Torres",
+      "intersection_name": "Rua Mariano Torres x Rua XV de Novembro",
+      "bsi_score": 42.7,
+      "max_queue_m": 47.9,
+      "avg_wait_s": 22.0,
+      "bottleneck_status": "ALERTA (Saturação Moderada)"
+    }
+  ],
+  "network_kpis": {
+    "mean_queue_m": 36.5,
+    "mean_wait_s": 18.5,
+    "mean_speed_kmh": 37.2,
+    "total_co2_kg_h": 432.03,
+    "total_nox_g_h": 1639.97,
+    "total_pmx_g_h": 77.45,
+    "mean_noise_dba": 73.75,
+    "critical_bottlenecks_count": 0
+  }
+}

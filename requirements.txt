@@ -1,0 +1,14 @@
+eclipse-sumo>=1.20.0
+traci>=1.20.0
+sumolib>=1.20.0
+requests>=2.31.0
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+plotly>=5.20.0
+streamlit>=1.35.0
+paho-mqtt>=2.0.0
+pyproj>=3.6.0
+shapely>=2.0.0
+pyyaml>=6.0.0
+jsonschema>=4.20.0

@@ -1,0 +1,58 @@
+{
+  "run_id": "estresse_severo__as_is_baseline__seed42",
+  "condition_key": "estresse_severo",
+  "condition_label": "Teste de Estresse / Chuva Intensa (+40% Demanda)",
+  "intervention_key": "as_is_baseline",
+  "intervention_name": "Cenário Base (As-Is)",
+  "tls_mode": "fixed_baseline",
+  "seed": 42,
+  "sim_steps": 180,
+  "geh_validation": {
+    "mean_geh": 2.678,
+    "max_geh": 5.842,
+    "passing_percentage": 90.0,
+    "meets_utfpr_85pct_criterion": true
+  },
+  "top_3_bottlenecks": [
+    {
+      "bottleneck_rank": 1,
+      "point_id": "PT_01_MARIANO_XV",
+      "corridor": "Rua Mariano Torres",
+      "intersection_name": "Rua Mariano Torres x Rua XV de Novembro",
+      "bsi_score": 89.6,
+      "max_queue_m": 155.3,
+      "avg_wait_s": 65.9,
+      "bottleneck_status": "CRÍTICO (Gargalo Severo)"
+    },
+    {
+      "bottleneck_rank": 2,
+      "point_id": "PT_09_VISCONDE_GUARAPUAVA",
+      "corridor": "Avenida Visconde de Guarapuava",
+      "intersection_name": "Av. Visconde de Guarapuava x Av. Mal. Floriano Peixoto",
+      "bsi_score": 88.0,
+      "max_queue_m": 108.3,
+      "avg_wait_s": 60.3,
+      "bottleneck_status": "CRÍTICO (Gargalo Severo)"
+    },
+    {
+      "bottleneck_rank": 3,
+      "point_id": "PT_02_MARIANO_ANDRE",
+      "corridor": "Rua Mariano Torres",
+      "intersection_name": "Rua Mariano Torres x Rua André de Barros",
+      "bsi_score": 87.3,
+      "max_queue_m": 153.2,
+      "avg_wait_s": 64.0,
+      "bottleneck_status": "CRÍTICO (Gargalo Severo)"
+    }
+  ],
+  "network_kpis": {
+    "mean_queue_m": 106.8,
+    "mean_wait_s": 45.7,
+    "mean_speed_kmh": 26.8,
+    "total_co2_kg_h": 956.66,
+    "total_nox_g_h": 3497.94,
+    "total_pmx_g_h": 177.32,
+    "mean_noise_dba": 75.45,
+    "critical_bottlenecks_count": 8
+  }
+}

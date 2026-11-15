@@ -1,0 +1,136 @@
+# Configuração Geográfica e Operacional do Estudo
+# Projeto 1: Mobilidade Urbana, Sustentabilidade e Sistemas Ciber-Físicos (UTFPR)
+
+project:
+  name: "Smart Mobility Curitiba - Quadrilátero Central"
+  institution: "UTFPR - Engenharia de Computação, Elétrica/Automação e Mecânica"
+  semester: "2026/1"
+
+# Regiões Geográficas (Bounding Boxes WGS84: [min_lon, min_lat, max_lon, max_lat])
+regions:
+  # Núcleo denso do Quadrilátero Central de Curitiba:
+  # Delimitado por Rua XV de Novembro, Av. Mal. Floriano Peixoto,
+  # Alameda Dr. Muricy / Rua Martim Afonso e Rua Mariano Torres (+ entorno imediato de transição)
+  quadrilatero_central:
+    description: "Núcleo do Quadrilátero Central (XV de Novembro, Mariano Torres, Mal. Floriano, Muricy/Martim Afonso)"
+    bbox: [-49.2785, -25.4365, -49.2605, -25.4255]
+    center_lat: -25.4310
+    center_lon: -49.2695
+
+  # Recorte expandido conectando o Quadrilátero aos eixos Av. Pres. Kennedy e Av. Mário Tourinho
+  eixo_expandido:
+    description: "Eixo Expandido (Quadrilátero Central até Av. Pres. Kennedy e Av. Mário Tourinho)"
+    bbox: [-49.3080, -25.4680, -49.2450, -25.4180]
+    center_lat: -25.4430
+    center_lon: -49.2765
+
+# Vias prioritárias para monitoramento, instalação de sensores E1/E2 e análise de gargalos
+monitored_corridors:
+  - name: "Rua Mariano Torres"
+    role: "Arterial Leste (Anel Central / Fluxo Intenso de Ônibus e Carros)"
+    reference_vpd_peak_vh: 1850
+  - name: "Avenida Marechal Floriano Peixoto"
+    role: "Eixo Estrutural Sul-Norte (Canaleta BRT + Vias Lentas)"
+    reference_vpd_peak_vh: 1620
+  - name: "Rua XV de Novembro"
+    role: "Eixo Leste-Oeste e Calçadão (Travessias de Pedestres + Cruzamentos)"
+    reference_vpd_peak_vh: 1150
+  - name: "Alameda Doutor Muricy"
+    role: "Limite Oeste do Quadrilátero Central"
+    reference_vpd_peak_vh: 920
+  - name: "Rua Martim Afonso"
+    role: "Conexão Oeste-Noroeste"
+    reference_vpd_peak_vh: 880
+  - name: "Rua André de Barros"
+    role: "Corredor de Saída Leste-Oeste no Centro"
+    reference_vpd_peak_vh: 1480
+  - name: "Rua Barão do Rio Branco"
+    role: "Conector Norte-Sul Central"
+    reference_vpd_peak_vh: 1100
+  - name: "Rua Monsenhor Celso"
+    role: "Conector Praça Tiradentes / Praça Carlos Gomes"
+    reference_vpd_peak_vh: 950
+  - name: "Avenida Visconde de Guarapuava"
+    role: "Arterial de Ligação sentido Mário Tourinho / Batel"
+    reference_vpd_peak_vh: 1950
+  - name: "Avenida Presidente Kennedy"
+    role: "Arterial Sul-Oeste de Alimentação"
+    reference_vpd_peak_vh: 1750
+  - name: "Avenida Mário Tourinho"
+    role: "Arterial Oeste (Conexão Interbairros)"
+    reference_vpd_peak_vh: 1800
+
+# Diferentes Condições Iniciais (Cenários de Demanda e Composição de Frota)
+initial_conditions:
+  pico_manha:
+    label: "Pico da Manhã (06:30 - 09:00)"
+    window_start: "06:30"
+    window_end: "09:00"
+    duration_seconds: 1800  # 30 min representativos de simulação microscópica (ajustável para 9000s)
+    vehicles_per_hour_scale: 1.00
+    modal_split:
+      passenger_flex: 0.68      # Automóveis leves (Flex gasolina/etanol)
+      commercial_diesel: 0.08   # Vans / VUCs / entregas urbanas
+      hybrid_electric: 0.04     # Híbridos e elétricos
+      motorcycle: 0.12          # Motocicletas
+      urbs_bus_brt: 0.08        # Ônibus URBS (Convencionais, Ligeirinhos e Biarticulados)
+    pedestrians_per_hour: 1200
+    cyclists_per_hour: 180
+
+  pico_tarde:
+    label: "Pico da Tarde (17:00 - 19:00)"
+    window_start: "17:00"
+    window_end: "19:00"
+    duration_seconds: 1800
+    vehicles_per_hour_scale: 1.25  # Maior saturação acumulada no Centro
+    modal_split:
+      passenger_flex: 0.70
+      commercial_diesel: 0.06
+      hybrid_electric: 0.04
+      motorcycle: 0.12
+      urbs_bus_brt: 0.08
+    pedestrians_per_hour: 1600
+    cyclists_per_hour: 240
+
+  entre_pico:
+    label: "Entre-Pico Comercial (12:00 - 14:00)"
+    window_start: "12:00"
+    window_end: "14:00"
+    duration_seconds: 1800
+    vehicles_per_hour_scale: 0.65
+    modal_split:
+      passenger_flex: 0.62
+      commercial_diesel: 0.14
+      hybrid_electric: 0.05
+      motorcycle: 0.13
+      urbs_bus_brt: 0.06
+    pedestrians_per_hour: 1400
+    cyclists_per_hour: 150
+
+  estresse_severo:
+    label: "Teste de Estresse / Chuva Intensa (+40% Demanda)"
+    window_start: "17:30"
+    window_end: "19:00"
+    duration_seconds: 1800
+    vehicles_per_hour_scale: 1.45
+    modal_split:
+      passenger_flex: 0.76
+      commercial_diesel: 0.05
+      hybrid_electric: 0.04
+      motorcycle: 0.08
+      urbs_bus_brt: 0.07
+    pedestrians_per_hour: 900
+    cyclists_per_hour: 80
+
+# Pesos para o Índice Composto de Severidade de Gargalo (Bottleneck Severity Index - BSI)
+bottleneck_scoring:
+  weights:
+    queue_length_m: 0.30
+    waiting_time_s: 0.30
+    speed_reduction_ratio: 0.20
+    occupancy_pct: 0.20
+  thresholds:
+    critical_queue_m: 45.0
+    critical_wait_s: 60.0
+    critical_occupancy_pct: 35.0
+    geh_validation_limit: 5.0

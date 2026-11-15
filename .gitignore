@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# Dados pesados e caches temporários (mantendo estrutura versionada via .gitkeep)
+data/raw/*.osm
+data/raw/*.osm.xml
+data/raw/*.zip
+data/raw/*.gtfs
+data/raw/urbs_*.json
+data/SimulationOutputs/
+results/runs/*/raw_logs/
+*.tripinfo.xml
+*.emissions.xml
+*.edgedata.xml
+*.lanedata.xml
+*.detector.xml
+
+# Ambientes e IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

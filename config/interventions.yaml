@@ -1,0 +1,42 @@
+# Catálogo de Intervenções Propostas (Cenários To-Be)
+# Permite testar mudanças na temporização de semáforos e na mão/geometria de ruas do Quadrilátero Central
+
+interventions:
+  as_is_baseline:
+    name: "Cenário Base (As-Is)"
+    description: "Malha atual de Curitiba com temporização semafórica fixa padrão, sem priorização de BRT."
+    tls_mode: "fixed_baseline"
+    network_modifications:
+      enabled: false
+
+  to_be_semaforo_onda_verde:
+    name: "To-Be 1: Re-temporização Semafórica (Onda Verde)"
+    description: "Ajuste nos planos de tempo de verde (+35% nas fases arteriais de Mariano Torres, Mal. Floriano e André de Barros)."
+    tls_mode: "green_wave_optimized"
+    network_modifications:
+      enabled: false
+
+  to_be_adaptativo_brt:
+    name: "To-Be 2: Semáforo Inteligente TraCI + Prioridade Ônibus URBS"
+    description: "Controle em malha fechada via TraCI baseado no tamanho real das filas (sensores E2) e extensão/antecipação de verde para ônibus da URBS."
+    tls_mode: "adaptive_traci_brt"
+    network_modifications:
+      enabled: false
+
+  to_be_completo_viario_e_semaforo:
+    name: "To-Be 3: Readequação Viária (Mão/Faixas) + Controle Adaptativo TraCI"
+    description: "Combina controle semafórico adaptativo via TraCI com intervenção física nas vias gargalo (liberação de faixa reversível de escoamento na Rua Mariano Torres e Rua André de Barros e inversão/otimização de mão em conectores secundários)."
+    tls_mode: "adaptive_traci_brt"
+    network_modifications:
+      enabled: true
+      # Arestas nos gargalos onde o estacionamento lateral vira faixa de fluxo ou mão única direcional no pico
+      expand_lanes_on_corridors:
+        - "Rua Mariano Torres"
+        - "Rua André de Barros"
+      # Arestas específicas para inversão de mão de direção (ex: conector secundário no centro)
+      reverse_edge_ids: []
+      # Ajuste de velocidade de sincronismo (Onda Verde) nos corredores estruturais (m/s)
+      corridor_speed_ms:
+        "Rua Mariano Torres": 15.28        # 55 km/h sincronizado
+        "Rua André de Barros": 13.89       # 50 km/h sincronizado
+        "Avenida Marechal Floriano Peixoto": 13.89

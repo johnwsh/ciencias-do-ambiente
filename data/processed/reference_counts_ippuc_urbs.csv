@@ -1,0 +1,11 @@
+point_id,corridor,intersection_name,direction,lanes,vph_pico_manha,vph_pico_tarde,vph_entre_pico,vph_estresse_severo,bus_per_hour_pico,reference_speed_kmh,reference_noise_leq_dba
+PT_01_MARIANO_XV,Rua Mariano Torres,Rua Mariano Torres x Rua XV de Novembro,Norte -> Sul (Sentido Guadalupe / Rui Barbosa),3,1780,2150,1150,2480,58,18.5,76.4
+PT_02_MARIANO_ANDRE,Rua Mariano Torres,Rua Mariano Torres x Rua André de Barros,Norte -> Sul / Conversão Leste,3,1690,2080,1100,2390,52,16.8,77.1
+PT_03_FLORIANO_ANDRE,Avenida Marechal Floriano Peixoto,Av. Mal. Floriano Peixoto x Rua André de Barros (Praça Rui Barbosa),Sul -> Norte / Eixo BRT,3,1540,1890,980,2190,64,19.2,75.8
+PT_04_ANDRE_BARROS_CENTRO,Rua André de Barros,Rua André de Barros x Rua Barão do Rio Branco,Oeste -> Leste (Saída do Centro),3,1420,1820,940,2100,34,17.4,74.9
+PT_05_XV_NOVEMBRO_MARIANO,Rua XV de Novembro,Rua XV de Novembro x Rua Mariano Torres (Início Calçadão),Leste -> Oeste,2,1120,1390,760,1610,38,21.0,73.2
+PT_06_ALAMEDA_MURICY,Alameda Doutor Muricy,Alameda Dr. Muricy x Rua Marechal Deodoro / XV,Sul -> Norte,2,890,1140,620,1340,18,22.5,71.5
+PT_07_BARAO_RIO_BRANCO,Rua Barão do Rio Branco,Rua Barão do Rio Branco x Rua André de Barros,Norte -> Sul (Praça Eufrásio Correia),2,1050,1310,720,1520,28,20.1,73.8
+PT_08_MONSENHOR_CELSO,Rua Monsenhor Celso,Rua Monsenhor Celso x Praça Carlos Gomes,Leste -> Oeste (Sentido Praça Tiradentes),2,910,1160,640,1350,30,20.8,72.9
+PT_09_VISCONDE_GUARAPUAVA,Avenida Visconde de Guarapuava,Av. Visconde de Guarapuava x Av. Mal. Floriano Peixoto,Leste -> Oeste (Conector Mário Tourinho / Batel),4,1890,2280,1240,2650,46,24.0,76.9
+PT_10_MARTIM_AFONSO,Rua Martim Afonso,Rua Martim Afonso x Al. Dr. Muricy / Mário Tourinho,Oeste -> Leste,2,840,1040,560,1220,16,25.2,70.8

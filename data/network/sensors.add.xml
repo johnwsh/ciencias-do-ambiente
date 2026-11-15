@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <laneAreaDetector id="e2_PT_01_MARIANO_XV_L0" lane="24576673#0_0" pos="58.88" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_01_MARIANO_XV_L1" lane="24576673#0_1" pos="58.88" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_01_MARIANO_XV_L2" lane="24576673#0_2" pos="58.88" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_02_MARIANO_ANDRE_L0" lane="231094156#3_0" pos="1.50" length="71.09" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_02_MARIANO_ANDRE_L1" lane="231094156#3_1" pos="1.50" length="71.09" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_02_MARIANO_ANDRE_L2" lane="231094156#3_2" pos="1.50" length="71.09" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_03_FLORIANO_ANDRE_L0" lane="1004631965_0" pos="10.74" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_03_FLORIANO_ANDRE_L1" lane="1004631965_1" pos="10.74" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_03_FLORIANO_ANDRE_L2" lane="1004631965_2" pos="10.74" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_03_FLORIANO_ANDRE_L3" lane="1004631965_3" pos="10.74" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_04_ANDRE_BARROS_CENTRO_L0" lane="380939603#5_0" pos="21.48" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_04_ANDRE_BARROS_CENTRO_L1" lane="380939603#5_1" pos="21.48" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_04_ANDRE_BARROS_CENTRO_L2" lane="380939603#5_2" pos="21.48" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_04_ANDRE_BARROS_CENTRO_L3" lane="380939603#5_3" pos="21.48" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_05_XV_NOVEMBRO_MARIANO_L0" lane="291467468#0_0" pos="140.50" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_05_XV_NOVEMBRO_MARIANO_L1" lane="291467468#0_1" pos="140.50" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_05_XV_NOVEMBRO_MARIANO_L2" lane="291467468#0_2" pos="140.50" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_06_ALAMEDA_MURICY_L0" lane="697619813#2_0" pos="75.42" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_06_ALAMEDA_MURICY_L1" lane="697619813#2_1" pos="75.42" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_06_ALAMEDA_MURICY_L2" lane="697619813#2_2" pos="75.42" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_07_BARAO_RIO_BRANCO_L0" lane="380939609#5_0" pos="22.42" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_08_MONSENHOR_CELSO_L0" lane="84518380_0" pos="15.85" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_09_VISCONDE_GUARAPUAVA_L0" lane="465279492#0_0" pos="26.88" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_09_VISCONDE_GUARAPUAVA_L1" lane="465279492#0_1" pos="26.88" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_09_VISCONDE_GUARAPUAVA_L2" lane="465279492#0_2" pos="26.88" length="80.00" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_10_MARTIM_AFONSO_L0" lane="1363581600_0" pos="1.50" length="72.24" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_10_MARTIM_AFONSO_L1" lane="1363581600_1" pos="1.50" length="72.24" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_10_MARTIM_AFONSO_L2" lane="1363581600_2" pos="1.50" length="72.24" freq="60" file="sensors_e2_output.xml" />
+  <laneAreaDetector id="e2_PT_10_MARTIM_AFONSO_L3" lane="1363581600_3" pos="1.50" length="72.24" freq="60" file="sensors_e2_output.xml" />
+  <edgeData id="macro_traffic" file="edgedata_traffic.xml" excludeEmpty="true" />
+  <edgeData id="macro_emissions" type="emissions" file="edgedata_emissions.xml" excludeEmpty="true" />
+  <edgeData id="macro_noise" type="harmonoise" file="edgedata_noise.xml" excludeEmpty="true" />
+</additional>

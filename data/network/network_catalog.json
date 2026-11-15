@@ -1,0 +1,3272 @@
+{
+  "network_file": "data\\network\\curitiba_as_is.net.xml",
+  "total_edges": 756,
+  "total_named_streets": 77,
+  "total_traffic_lights": 112,
+  "monitored_corridors_found": {
+    "Rua Mariano Torres": {
+      "edge_count": 28,
+      "total_length_m": 1572.1,
+      "sample_edges": [
+        "231091820#0",
+        "24576673#0",
+        "386353438",
+        "127724111#0",
+        "131490365#0",
+        "231094156#3",
+        "56235459#1",
+        "131490365#1"
+      ]
+    },
+    "Avenida Marechal Floriano Peixoto": {
+      "edge_count": 8,
+      "total_length_m": 765.5,
+      "sample_edges": [
+        "382684759",
+        "291469316",
+        "1004631966",
+        "1004631965",
+        "165471576#0",
+        "1102467563",
+        "125539250#0",
+        "24775894#0"
+      ]
+    },
+    "Rua XV de Novembro": {
+      "edge_count": 14,
+      "total_length_m": 777.5,
+      "sample_edges": [
+        "291467468#0",
+        "257599159#0",
+        "724752500#0",
+        "291467468#1",
+        "504248851#1",
+        "291467468#4",
+        "257599159#2",
+        "257599158#2"
+      ]
+    },
+    "Alameda Doutor Muricy": {
+      "edge_count": 13,
+      "total_length_m": 1029.8,
+      "sample_edges": [
+        "380939596",
+        "697619813#2",
+        "1107180167",
+        "1107180168",
+        "1497558629",
+        "697619813#0",
+        "1049785769#3",
+        "1098152881#0"
+      ]
+    },
+    "Rua Martim Afonso": {
+      "edge_count": 1,
+      "total_length_m": 74.2,
+      "sample_edges": [
+        "1363581600"
+      ]
+    },
+    "Rua André de Barros": {
+      "edge_count": 17,
+      "total_length_m": 835.6,
+      "sample_edges": [
+        "380939603#5",
+        "263505518",
+        "1024709875#0",
+        "380939603#0",
+        "1024709874#1",
+        "693645930#1",
+        "354612980#1",
+        "380939603#3"
+      ]
+    },
+    "Rua Barão do Rio Branco": {
+      "edge_count": 10,
+      "total_length_m": 697.0,
+      "sample_edges": [
+        "380939609#0",
+        "380939609#5",
+        "1098152905",
+        "380939609#4",
+        "380939609#2",
+        "380939609#3",
+        "-1547450041",
+        "1547450041"
+      ]
+    },
+    "Rua Monsenhor Celso": {
+      "edge_count": 3,
+      "total_length_m": 254.5,
+      "sample_edges": [
+        "84518380",
+        "-137441186",
+        "137441186"
+      ]
+    },
+    "Avenida Visconde de Guarapuava": {
+      "edge_count": 40,
+      "total_length_m": 1385.5,
+      "sample_edges": [
+        "163214480#1",
+        "465279492#0",
+        "291468708",
+        "465279493#0",
+        "663076749#1",
+        "409826715#0",
+        "663076749#0",
+        "55200327#0"
+      ]
+    },
+    "Avenida Presidente Kennedy": {
+      "edge_count": 0,
+      "total_length_m": 0,
+      "sample_edges": []
+    },
+    "Avenida Mário Tourinho": {
+      "edge_count": 0,
+      "total_length_m": 0,
+      "sample_edges": []
+    }
+  },
+  "traffic_lights": [
+    {
+      "tls_id": "10104417907",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1172638281#0"
+      ],
+      "controlled_streets": [
+        "Rua Emiliano Perneta"
+      ]
+    },
+    {
+      "tls_id": "1226991247",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-290281344#2",
+        "24574304#0",
+        "654376992"
+      ],
+      "controlled_streets": [
+        "Rua Marechal Deodoro",
+        "Rua Presidente Faria",
+        "Travessa da Lapa"
+      ]
+    },
+    {
+      "tls_id": "1229469415",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-758291630#2",
+        "257599158#3",
+        "290281344#0"
+      ],
+      "controlled_streets": [
+        "Canaleta Exclusiva BRT",
+        "Rua Presidente Faria",
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "1301304706",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1108070621",
+        "125539243",
+        "24576603#0"
+      ],
+      "controlled_streets": [
+        "Rua Emiliano Perneta",
+        "Rua Voluntários da Pátria"
+      ]
+    },
+    {
+      "tls_id": "1301304712",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-488431776#1",
+        "24576603#2",
+        "488431776#0"
+      ],
+      "controlled_streets": [
+        "Rua Emiliano Perneta",
+        "Rua Senador Alencar Guimarães"
+      ]
+    },
+    {
+      "tls_id": "1370740658",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "380939603#4",
+        "654376981#0"
+      ],
+      "controlled_streets": [
+        "Rua André de Barros",
+        "Travessa da Lapa"
+      ]
+    },
+    {
+      "tls_id": "1386672289",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "685163219#0",
+        "710565432#0"
+      ],
+      "controlled_streets": [
+        "Rua João Negrão",
+        "Rua Pedro Ivo"
+      ]
+    },
+    {
+      "tls_id": "1393843560",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1046511867#2",
+        "663076755#5"
+      ],
+      "controlled_streets": [
+        "Rua Amintas de Barros",
+        "Rua Doutor Faivre"
+      ]
+    },
+    {
+      "tls_id": "1393846337",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1539622997#0",
+        "458691860"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Serro Azul",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "1393943920",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "263502993#0",
+        "629270661"
+      ],
+      "controlled_streets": [
+        "Rua Duque de Caxias",
+        "Rua Presidente Carlos Cavalcanti"
+      ]
+    },
+    {
+      "tls_id": "1496381924",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1004631965",
+        "654376997#6"
+      ],
+      "controlled_streets": [
+        "Avenida Marechal Floriano Peixoto",
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "1703814317",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "161392536#0",
+        "29464177#1"
+      ],
+      "controlled_streets": [
+        "Rua Comendador Araújo",
+        "Rua Visconde do Rio Branco"
+      ]
+    },
+    {
+      "tls_id": "1721970471",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24576709",
+        "32944363"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Araújo",
+        "Rua General Carneiro"
+      ]
+    },
+    {
+      "tls_id": "1888080839",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1098152881#1",
+        "1107180169"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Muricy",
+        "Rua Cruz Machado"
+      ]
+    },
+    {
+      "tls_id": "267173140",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "265615038#0",
+        "291467468#0"
+      ],
+      "controlled_streets": [
+        "Rua General Carneiro",
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "267173333",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "697619813#2",
+        "730950588#0"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Muricy",
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "267173336",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1098152906#0",
+        "380939609#5"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Rio Branco",
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "267191310",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "231094421",
+        "663076749#1"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Rua Lourenço Pinto"
+      ]
+    },
+    {
+      "tls_id": "267192097",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "231094159#1",
+        "398199773#0"
+      ],
+      "controlled_streets": [
+        "Rua Comendador Macedo",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "267192098",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "720363054#1",
+        "758298008#0"
+      ],
+      "controlled_streets": [
+        "Rua Marechal Deodoro",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "267192099",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "397624476#0",
+        "504248851#1"
+      ],
+      "controlled_streets": [
+        "Rua Tibagi",
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "267192511",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "380939603#2",
+        "380939609#1"
+      ],
+      "controlled_streets": [
+        "Rua André de Barros",
+        "Rua Barão do Rio Branco"
+      ]
+    },
+    {
+      "tls_id": "267192513",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "380939603#5",
+        "70586543#2"
+      ],
+      "controlled_streets": [
+        "Rua André de Barros",
+        "Rua João Negrão"
+      ]
+    },
+    {
+      "tls_id": "267192516",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "380939618#0",
+        "720363057#0"
+      ],
+      "controlled_streets": [
+        "Rua Nilo Cairo",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "267192518",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "231094153#1",
+        "663076755#0"
+      ],
+      "controlled_streets": [
+        "Rua Doutor Faivre",
+        "Rua Nilo Cairo"
+      ]
+    },
+    {
+      "tls_id": "267192823",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24576648#1",
+        "663076755#1"
+      ],
+      "controlled_streets": [
+        "Rua Comendador Macedo",
+        "Rua Doutor Faivre"
+      ]
+    },
+    {
+      "tls_id": "267192944",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1046511866#0",
+        "417556973#0"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Araújo",
+        "Rua Doutor Faivre"
+      ]
+    },
+    {
+      "tls_id": "267192945",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "291467468#1",
+        "663076755#4"
+      ],
+      "controlled_streets": [
+        "Rua Doutor Faivre",
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "267193088",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24576533#0",
+        "24576694#0"
+      ],
+      "controlled_streets": [
+        "Rua Amintas de Barros",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "269222056",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24775812#0",
+        "444169870#0"
+      ],
+      "controlled_streets": [
+        "Rua João Negrão",
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "269222057",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1271885035#1",
+        "444169869#0"
+      ],
+      "controlled_streets": [
+        "Rua José Loureiro",
+        "Rua João Negrão"
+      ]
+    },
+    {
+      "tls_id": "269222334",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "409826716#2",
+        "693645930#1"
+      ],
+      "controlled_streets": [
+        "Rua André de Barros",
+        "Rua Conselheiro Laurindo"
+      ]
+    },
+    {
+      "tls_id": "269222335",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1149795302#0",
+        "720358231#0"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Laurindo",
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "269222790",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1098152880",
+        "125536134#0"
+      ],
+      "controlled_streets": [
+        "Rua Cruz Machado",
+        "Rua do Rosário"
+      ]
+    },
+    {
+      "tls_id": "269224069",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1004631964",
+        "165471576#0"
+      ],
+      "controlled_streets": [
+        "Avenida Marechal Floriano Peixoto",
+        "Rua José Loureiro"
+      ]
+    },
+    {
+      "tls_id": "324342965",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "358155507#1",
+        "522501510#0"
+      ],
+      "controlled_streets": [
+        "Alameda Augusto Stellfeld",
+        "Alameda Cabral"
+      ]
+    },
+    {
+      "tls_id": "324342975",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1011937871#0",
+        "29429505#0"
+      ],
+      "controlled_streets": [
+        "Rua Almirante Barroso",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "324344747",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1011937871#2",
+        "1509682533"
+      ],
+      "controlled_streets": [
+        "Rua Trajano Reis",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "324344754",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "29429442",
+        "654377005#0"
+      ],
+      "controlled_streets": [
+        "Rua Duque de Caxias",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "324344758",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "654377005#3"
+      ],
+      "controlled_streets": [
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "324345733",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "263502993#3",
+        "426312867#0"
+      ],
+      "controlled_streets": [
+        "Rua João Manoel",
+        "Rua Presidente Carlos Cavalcanti"
+      ]
+    },
+    {
+      "tls_id": "324349029",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1011937870#0",
+        "53366716#6"
+      ],
+      "controlled_streets": [
+        "Rua Riachuelo",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "324349047",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1486204970",
+        "53366716#3"
+      ],
+      "controlled_streets": [
+        "Rua Riachuelo",
+        "Travessa Tobias de Macedo"
+      ]
+    },
+    {
+      "tls_id": "324349052",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "292457828#1",
+        "76158181"
+      ],
+      "controlled_streets": [
+        "Rua Cândido Lopes"
+      ]
+    },
+    {
+      "tls_id": "324351087",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1544401275",
+        "663066063"
+      ],
+      "controlled_streets": [
+        "Alameda Cabral",
+        "Rua Cruz Machado"
+      ]
+    },
+    {
+      "tls_id": "324351089",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "29429121#0",
+        "629270670#1"
+      ],
+      "controlled_streets": [
+        "Rua Cruz Machado",
+        "Rua Desembargador Ermelino de Leão"
+      ]
+    },
+    {
+      "tls_id": "324351090",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1064310180#2",
+        "397624483#1"
+      ],
+      "controlled_streets": [
+        "Rua Cruz Machado",
+        "Rua Ébano Pereira"
+      ]
+    },
+    {
+      "tls_id": "324351104",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "435069350#0",
+        "697619813#0"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Muricy",
+        "Rua Cândido Lopes"
+      ]
+    },
+    {
+      "tls_id": "324351106",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "29429114",
+        "29430888#1"
+      ],
+      "controlled_streets": [
+        "Alameda Cabral",
+        "Alameda Doutor Carlos de Carvalho"
+      ]
+    },
+    {
+      "tls_id": "324351112",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1098152879#0",
+        "125539244"
+      ],
+      "controlled_streets": [
+        "Rua Cândido Lopes",
+        "Rua Desembargador Ermelino de Leão"
+      ]
+    },
+    {
+      "tls_id": "324351114",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1107180170",
+        "435069350#1"
+      ],
+      "controlled_streets": [
+        "Rua Cândido Lopes",
+        "Rua Ébano Pereira"
+      ]
+    },
+    {
+      "tls_id": "324354655",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "164417448#1",
+        "380939609#4"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Rio Branco",
+        "Rua José Loureiro"
+      ]
+    },
+    {
+      "tls_id": "324354657",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "380939609#3",
+        "654376982"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Rio Branco",
+        "Rua Pedro Ivo"
+      ]
+    },
+    {
+      "tls_id": "324354661",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1037027923",
+        "263505518"
+      ],
+      "controlled_streets": [
+        "Rua André de Barros",
+        "Rua Lourenço Pinto"
+      ]
+    },
+    {
+      "tls_id": "324358152",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-654376983",
+        "713823599#0",
+        "765877225"
+      ],
+      "controlled_streets": [
+        "Rua Pedro Ivo",
+        "Travessa da Lapa"
+      ]
+    },
+    {
+      "tls_id": "324358157",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "161392536#2",
+        "429543355#0"
+      ],
+      "controlled_streets": [
+        "Avenida Vicente Machado",
+        "Rua Visconde do Rio Branco"
+      ]
+    },
+    {
+      "tls_id": "324724605",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "289829949"
+      ],
+      "controlled_streets": [
+        "Rua Visconde de Nacar"
+      ]
+    },
+    {
+      "tls_id": "3602939840",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1107180166",
+        "45053541#1"
+      ],
+      "controlled_streets": [
+        "Rua Desembargador Westphalen",
+        "Rua Pedro Ivo"
+      ]
+    },
+    {
+      "tls_id": "3603149353",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "291750963#0",
+        "397624481"
+      ],
+      "controlled_streets": [
+        "Rua Cândido Lopes"
+      ]
+    },
+    {
+      "tls_id": "3604087606",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "354709013#1",
+        "35595849#0"
+      ],
+      "controlled_streets": [
+        "Rua Prefeito João Moreira Garcez",
+        "Travessa Tobias de Macedo"
+      ]
+    },
+    {
+      "tls_id": "3604175280",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1102467559#0",
+        "697619809#0"
+      ],
+      "controlled_streets": [
+        "Praça Tiradentes",
+        "Rua Cândido Lopes"
+      ]
+    },
+    {
+      "tls_id": "3611112770",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1049785769#0"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Muricy"
+      ]
+    },
+    {
+      "tls_id": "3837428504",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "38895530#1",
+        "663076755#3"
+      ],
+      "controlled_streets": [
+        "Rua Doutor Faivre",
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "417185311",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "724752500#0",
+        "724752501#0"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Laurindo",
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "4220285599",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "458690032",
+        "53366716#7"
+      ],
+      "controlled_streets": [
+        "Rua Presidente Carlos Cavalcanti",
+        "Rua Riachuelo"
+      ]
+    },
+    {
+      "tls_id": "4612268054",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-682956211",
+        "386354760#2",
+        "417556973#2"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Araújo",
+        "Rua Mariano Torres"
+      ]
+    },
+    {
+      "tls_id": "461500601",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "231094161#1",
+        "663076755#2"
+      ],
+      "controlled_streets": [
+        "Rua Benjamin Constant",
+        "Rua Doutor Faivre"
+      ]
+    },
+    {
+      "tls_id": "4828352575",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "263505504#3"
+      ],
+      "controlled_streets": [
+        "Travessa Nestor de Castro"
+      ]
+    },
+    {
+      "tls_id": "5099522338",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "257599159#2"
+      ],
+      "controlled_streets": [
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "5265780330",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "137450830#0",
+        "24959936#0"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Serro Azul",
+        "Rua Paula Gomes"
+      ]
+    },
+    {
+      "tls_id": "5265780331",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24959936#3",
+        "458690031"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Serro Azul",
+        "Rua Presidente Carlos Cavalcanti"
+      ]
+    },
+    {
+      "tls_id": "5265780333",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1539622998",
+        "522549947#0"
+      ],
+      "controlled_streets": [
+        "Rua Mateus Leme",
+        "Rua Presidente Carlos Cavalcanti"
+      ]
+    },
+    {
+      "tls_id": "563716066",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "231094158#2",
+        "45053549#0"
+      ],
+      "controlled_streets": [
+        "Rua Amintas de Barros",
+        "Rua General Carneiro"
+      ]
+    },
+    {
+      "tls_id": "571309058",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1092508375",
+        "354612980#2"
+      ],
+      "controlled_streets": [
+        "Rua André de Barros",
+        "Rua Desembargador Westphalen"
+      ]
+    },
+    {
+      "tls_id": "679715042",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1107180168",
+        "165471575"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Muricy",
+        "Rua Pedro Ivo"
+      ]
+    },
+    {
+      "tls_id": "679715043",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1024709874#0",
+        "1107180167"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Muricy",
+        "Rua André de Barros"
+      ]
+    },
+    {
+      "tls_id": "7701048790",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-654376992",
+        "1271885035#0",
+        "654376983"
+      ],
+      "controlled_streets": [
+        "Rua José Loureiro",
+        "Travessa da Lapa"
+      ]
+    },
+    {
+      "tls_id": "846529476",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "38855900#0",
+        "720363055#0"
+      ],
+      "controlled_streets": [
+        "Rua Benjamin Constant",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "850018001",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "710565434#0",
+        "71443365#0"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Laurindo",
+        "Travessa Itararé"
+      ]
+    },
+    {
+      "tls_id": "981997243",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "654376997#0"
+      ],
+      "controlled_streets": [
+        "Rua Marechal Deodoro"
+      ]
+    },
+    {
+      "tls_id": "cluster_10081047080_10716455501_10716455504_11035058760_#7more",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1157470822#1",
+        "-355202859#3",
+        "1157466252#1",
+        "1157470821#0",
+        "231094154#0",
+        "263502994#0",
+        "355202270#0"
+      ],
+      "controlled_streets": [
+        "Ciclovia Parque São Lourenço - Passeio Público",
+        "Rua Conselheiro Araújo",
+        "Rua Luiz Leão"
+      ]
+    },
+    {
+      "tls_id": "cluster_10758035388_1843406598_267538447",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1488136310",
+        "173546198",
+        "654377004#0"
+      ],
+      "controlled_streets": [
+        "Rua Alfredo Bufren",
+        "Rua Conselheiro Laurindo",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "cluster_10764101315_12809467751_266979116_846529475",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1157466240#0",
+        "-1383538725",
+        "1157466238#1"
+      ],
+      "controlled_streets": []
+    },
+    {
+      "tls_id": "cluster_10885297639_10888578433_1228428710_269222331_#1more",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1171441645#1",
+        "1171878678",
+        "127536292#0",
+        "504243289#0",
+        "604751525#0"
+      ],
+      "controlled_streets": [
+        "Avenida Sete de Setembro",
+        "Rua Conselheiro Laurindo"
+      ]
+    },
+    {
+      "tls_id": "cluster_10885297641_1413037694",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1171441648#1",
+        "663076728#2",
+        "663076750#0"
+      ],
+      "controlled_streets": [
+        "Avenida Sete de Setembro",
+        "Rua João Negrão"
+      ]
+    },
+    {
+      "tls_id": "cluster_1228410692_267193204",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-190897065",
+        "-397624486#3",
+        "380939579",
+        "429543355#10"
+      ],
+      "controlled_streets": [
+        "Avenida Vicente Machado",
+        "Canaleta Exclusiva BRT",
+        "Rua Visconde de Nacar"
+      ]
+    },
+    {
+      "tls_id": "cluster_1228410781_1228410784",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-24553001#1",
+        "24576603#7",
+        "397624486#0",
+        "397628668#0"
+      ],
+      "controlled_streets": [
+        "Canaleta Exclusiva BRT",
+        "Rua Emiliano Perneta",
+        "Rua Visconde de Nacar"
+      ]
+    },
+    {
+      "tls_id": "cluster_1229480871_5445927969",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-654377003",
+        "1011937870#2",
+        "654377008",
+        "654377010#2"
+      ],
+      "controlled_streets": [
+        "Canaleta Exclusiva BRT",
+        "Rua Presidente Faria",
+        "Rua Treze de Maio"
+      ]
+    },
+    {
+      "tls_id": "cluster_1363005349_846529467",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1157466238#3",
+        "1157466238#0",
+        "372920771#0"
+      ],
+      "controlled_streets": [
+        "Avenida Sete de Setembro"
+      ]
+    },
+    {
+      "tls_id": "cluster_1770091012_269223264",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "125539246#1",
+        "380939625#1"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Serro Azul"
+      ]
+    },
+    {
+      "tls_id": "cluster_1772923991_267192508",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-716997929",
+        "1024709874#1",
+        "1268032600",
+        "291469316"
+      ],
+      "controlled_streets": [
+        "Avenida Marechal Floriano Peixoto",
+        "Canaleta Exclusiva BRT",
+        "Rua André de Barros"
+      ]
+    },
+    {
+      "tls_id": "cluster_266901847_324363587",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1413549092",
+        "190897065",
+        "24576729",
+        "29430888#2"
+      ],
+      "controlled_streets": [
+        "Alameda Doutor Carlos de Carvalho",
+        "Canaleta Exclusiva BRT",
+        "Rua Visconde de Nacar"
+      ]
+    },
+    {
+      "tls_id": "cluster_266901849_267193201_5067565887",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1413549092",
+        "670947693"
+      ],
+      "controlled_streets": [
+        "Canaleta Exclusiva BRT",
+        "Rua Professor Fernando Moreira"
+      ]
+    },
+    {
+      "tls_id": "cluster_269224070_7080557240",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1004631966",
+        "716997929",
+        "776924508"
+      ],
+      "controlled_streets": [
+        "Avenida Marechal Floriano Peixoto",
+        "Canaleta Exclusiva BRT",
+        "Rua Pedro Ivo"
+      ]
+    },
+    {
+      "tls_id": "cluster_4552227502_5445909588",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-654377000",
+        "467435130#0",
+        "654377003",
+        "654377006"
+      ],
+      "controlled_streets": [
+        "Canaleta Exclusiva BRT",
+        "Rua Presidente Carlos Cavalcanti",
+        "Rua Presidente Faria"
+      ]
+    },
+    {
+      "tls_id": "cluster_5445927973_5445927974",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-654377008",
+        "24576467#0",
+        "53333790",
+        "758291630#0"
+      ],
+      "controlled_streets": [
+        "Canaleta Exclusiva BRT",
+        "Rua Alfredo Bufren",
+        "Rua Presidente Faria"
+      ]
+    },
+    {
+      "tls_id": "cluster_842326336_846529473",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1126852475#1",
+        "1271885035#3"
+      ],
+      "controlled_streets": [
+        "Rua Conselheiro Laurindo",
+        "Rua José Loureiro"
+      ]
+    },
+    {
+      "tls_id": "joinedS_1226991198_267191306",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24552851#1",
+        "465279492#0",
+        "55200327#2",
+        "654376978"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Travessa da Lapa"
+      ]
+    },
+    {
+      "tls_id": "joinedS_1386672287_269222058",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "231093229",
+        "380939615#4",
+        "409826715#2",
+        "465279493#2"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Rua João Negrão"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267191300_267192999_267425818_267425819",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "113798873",
+        "127724115",
+        "231091820#0",
+        "231092960#1",
+        "24576673#0",
+        "452336635",
+        "55200331",
+        "663076758"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Rua Mariano Torres"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267192090_4491511695_cluster_1228428697_267192091_4035000340_4491511696",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-663076726#1",
+        "1480746781",
+        "231091479#0",
+        "231092028#0",
+        "231092958#3",
+        "372696588#0",
+        "372920770",
+        "663076731"
+      ],
+      "controlled_streets": [
+        "Avenida Presidente Affonso Camargo",
+        "Avenida Sete de Setembro",
+        "Canaleta Exclusiva BRT",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267192094_267192095",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "113798872#2",
+        "1488136316",
+        "380939621#2",
+        "663076752"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Rua Tibagi"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267192997_cluster_267192825_846529457",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1157466248#0",
+        "1101617480",
+        "1157466244#1",
+        "24576648#3",
+        "386353438",
+        "56235459#1"
+      ],
+      "controlled_streets": [
+        "Rua Comendador Macedo",
+        "Rua Mariano Torres"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267192998_cluster_267192517_846529480",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1157466244#0",
+        "1157466240#2",
+        "127724111#1",
+        "131490365#1",
+        "380939623#0",
+        "758309901"
+      ],
+      "controlled_streets": [
+        "Rua Mariano Torres",
+        "Rua Nilo Cairo"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267193000_cluster_267173142_840597205",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1157466251#0",
+        "1157466249#1",
+        "231094156#3",
+        "231094164",
+        "291467468#8",
+        "55200757#2"
+      ],
+      "controlled_streets": [
+        "Rua Mariano Torres",
+        "Rua XV de Novembro"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267193001_cluster_267192967_840597204",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-1159450411#0",
+        "1157466249#0",
+        "231094155",
+        "231094156#1",
+        "38895530#3",
+        "720358229#1"
+      ],
+      "controlled_streets": [
+        "Rua Marechal Deodoro",
+        "Rua Mariano Torres"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267193002_267193089",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1098152907#1",
+        "231094157#1",
+        "397624482#2",
+        "762143175"
+      ],
+      "controlled_streets": [
+        "Rua Amintas de Barros",
+        "Rua Mariano Torres"
+      ]
+    },
+    {
+      "tls_id": "joinedS_267425820_269222333",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "164801791",
+        "55200329#2",
+        "663076727#3",
+        "663076751#3"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Rua Conselheiro Laurindo"
+      ]
+    },
+    {
+      "tls_id": "joinedS_269222949_cluster_1770091055_1770091056_3611327210_3611330611",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1102467563",
+        "125539249",
+        "125539250#0",
+        "382684759"
+      ],
+      "controlled_streets": [
+        "Avenida Marechal Floriano Peixoto",
+        "Rua Cândido de Leão"
+      ]
+    },
+    {
+      "tls_id": "joinedS_3611204625_cluster_1721970495_1770091004",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "24775959#0",
+        "398715325",
+        "697619803"
+      ],
+      "controlled_streets": [
+        "Rua Barão do Serro Azul",
+        "Travessa Nestor de Castro"
+      ]
+    },
+    {
+      "tls_id": "joinedS_461500600_cluster_1393843462_846529468",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "-694576552",
+        "1101617479#1",
+        "1157466246#1",
+        "231094162#1",
+        "404987039#0",
+        "720358230"
+      ],
+      "controlled_streets": [
+        "Rua Benjamin Constant",
+        "Rua Mariano Torres"
+      ]
+    },
+    {
+      "tls_id": "joinedS_564395700_564395881",
+      "programs": [
+        "0"
+      ],
+      "controlled_edges": [
+        "1547450041",
+        "55200326#2",
+        "56235265",
+        "654376980#1"
+      ],
+      "controlled_streets": [
+        "Avenida Visconde de Guarapuava",
+        "Rua Barão do Rio Branco"
+      ]
+    }
+  ],
+  "corridor_edges": {
+    "Rua Mariano Torres": [
+      {
+        "edge_id": "231091820#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267192991",
+        "to_node": "267425818",
+        "num_lanes": 2,
+        "length_m": 146.53,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267425818"
+      },
+      {
+        "edge_id": "24576673#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_10764101315_12809467751_266979116_846529475",
+        "to_node": "267425819",
+        "num_lanes": 3,
+        "length_m": 139.38,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267425819"
+      },
+      {
+        "edge_id": "386353438",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267192998",
+        "to_node": "267192997",
+        "num_lanes": 2,
+        "length_m": 131.84,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267192997"
+      },
+      {
+        "edge_id": "127724111#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267192999",
+        "to_node": "4359010431",
+        "num_lanes": 2,
+        "length_m": 129.53,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "131490365#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267191300",
+        "to_node": "4359010432",
+        "num_lanes": 3,
+        "length_m": 123.63,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "231094156#3",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_267192967_840597204",
+        "to_node": "cluster_267173142_840597205",
+        "num_lanes": 3,
+        "length_m": 73.09,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_267173142_840597205"
+      },
+      {
+        "edge_id": "56235459#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_850017896_850017943",
+        "to_node": "cluster_267192825_846529457",
+        "num_lanes": 3,
+        "length_m": 67.4,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_267192825_846529457"
+      },
+      {
+        "edge_id": "131490365#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "4359010432",
+        "to_node": "cluster_267192517_846529480",
+        "num_lanes": 3,
+        "length_m": 59.02,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_267192517_846529480"
+      },
+      {
+        "edge_id": "56235459#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_267192517_846529480",
+        "to_node": "cluster_850017896_850017943",
+        "num_lanes": 3,
+        "length_m": 57.36,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "127724111#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "4359010431",
+        "to_node": "267192998",
+        "num_lanes": 2,
+        "length_m": 53.44,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267192998"
+      },
+      {
+        "edge_id": "231094156#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_1393843462_846529468",
+        "to_node": "2630941134",
+        "num_lanes": 3,
+        "length_m": 51.74,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "231094162#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267192997",
+        "to_node": "978827907",
+        "num_lanes": 2,
+        "length_m": 50.33,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1101617479#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "978827903",
+        "to_node": "cluster_1393843462_846529468",
+        "num_lanes": 3,
+        "length_m": 48.17,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_1393843462_846529468"
+      },
+      {
+        "edge_id": "231094157#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267193000",
+        "to_node": "3774320658",
+        "num_lanes": 2,
+        "length_m": 46.88,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200757#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267193001",
+        "to_node": "10956454062",
+        "num_lanes": 2,
+        "length_m": 46.0,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "720358229#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "2630941136",
+        "to_node": "267193001",
+        "num_lanes": 2,
+        "length_m": 42.12,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267193001"
+      },
+      {
+        "edge_id": "1098152907#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_267173142_840597205",
+        "to_node": "3774320657",
+        "num_lanes": 2,
+        "length_m": 41.66,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1101617479#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "cluster_267192825_846529457",
+        "to_node": "978827903",
+        "num_lanes": 3,
+        "length_m": 41.15,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "720358229#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "461500600",
+        "to_node": "2630941136",
+        "num_lanes": 2,
+        "length_m": 41.05,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "231094162#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "978827907",
+        "to_node": "461500600",
+        "num_lanes": 2,
+        "length_m": 40.92,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "461500600"
+      },
+      {
+        "edge_id": "386354760#2",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "840597222",
+        "to_node": "4612268054",
+        "num_lanes": 2,
+        "length_m": 38.34,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "4612268054"
+      },
+      {
+        "edge_id": "1098152907#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "3774320657",
+        "to_node": "267193089",
+        "num_lanes": 2,
+        "length_m": 30.31,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267193089"
+      },
+      {
+        "edge_id": "231094157#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "3774320658",
+        "to_node": "267193002",
+        "num_lanes": 2,
+        "length_m": 25.06,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267193002"
+      },
+      {
+        "edge_id": "231094156#1",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "2630941134",
+        "to_node": "cluster_267192967_840597204",
+        "num_lanes": 3,
+        "length_m": 21.7,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_267192967_840597204"
+      },
+      {
+        "edge_id": "55200757#2",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "10956454062",
+        "to_node": "267193000",
+        "num_lanes": 2,
+        "length_m": 18.39,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267193000"
+      },
+      {
+        "edge_id": "386354760#0",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267193002",
+        "to_node": "840597222",
+        "num_lanes": 2,
+        "length_m": 6.65,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "127724115",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267425818",
+        "to_node": "267192999",
+        "num_lanes": 2,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267192999"
+      },
+      {
+        "edge_id": "452336635",
+        "street_name": "Rua Mariano Torres",
+        "from_node": "267425819",
+        "to_node": "267191300",
+        "num_lanes": 3,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267191300"
+      }
+    ],
+    "Avenida Marechal Floriano Peixoto": [
+      {
+        "edge_id": "382684759",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "1496381924",
+        "to_node": "269222949",
+        "num_lanes": 3,
+        "length_m": 183.79,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "269222949"
+      },
+      {
+        "edge_id": "291469316",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "267191313",
+        "to_node": "cluster_1772923991_267192508",
+        "num_lanes": 2,
+        "length_m": 178.07,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_1772923991_267192508"
+      },
+      {
+        "edge_id": "1004631966",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "cluster_1772923991_267192508",
+        "to_node": "cluster_269224070_7080557240",
+        "num_lanes": 2,
+        "length_m": 148.31,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_269224070_7080557240"
+      },
+      {
+        "edge_id": "1004631965",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "269224069",
+        "to_node": "1496381924",
+        "num_lanes": 4,
+        "length_m": 91.24,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "1496381924"
+      },
+      {
+        "edge_id": "165471576#0",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "cluster_269224070_7080557240",
+        "to_node": "269224069",
+        "num_lanes": 3,
+        "length_m": 87.85,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "269224069"
+      },
+      {
+        "edge_id": "1102467563",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "269222790",
+        "to_node": "cluster_1770091055_1770091056_3611327210_3611330611",
+        "num_lanes": 4,
+        "length_m": 60.44,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_1770091055_1770091056_3611327210_3611330611"
+      },
+      {
+        "edge_id": "125539250#0",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "269222949",
+        "to_node": "cluster_1770091055_1770091056_3611327210_3611330611",
+        "num_lanes": 2,
+        "length_m": 9.17,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_1770091055_1770091056_3611327210_3611330611"
+      },
+      {
+        "edge_id": "24775894#0",
+        "street_name": "Avenida Marechal Floriano Peixoto",
+        "from_node": "269222949",
+        "to_node": "269223257",
+        "num_lanes": 2,
+        "length_m": 6.59,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      }
+    ],
+    "Rua XV de Novembro": [
+      {
+        "edge_id": "291467468#0",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "1721970393",
+        "to_node": "267173140",
+        "num_lanes": 3,
+        "length_m": 221.0,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267173140"
+      },
+      {
+        "edge_id": "257599159#0",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "417185311",
+        "to_node": "6292297613",
+        "num_lanes": 2,
+        "length_m": 109.41,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "724752500#0",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "267192099",
+        "to_node": "417185311",
+        "num_lanes": 3,
+        "length_m": 104.56,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "417185311"
+      },
+      {
+        "edge_id": "291467468#1",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "267173140",
+        "to_node": "267192945",
+        "num_lanes": 3,
+        "length_m": 89.94,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267192945"
+      },
+      {
+        "edge_id": "504248851#1",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "cluster_267173142_840597205",
+        "to_node": "267192099",
+        "num_lanes": 3,
+        "length_m": 55.23,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267192099"
+      },
+      {
+        "edge_id": "291467468#4",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "267192945",
+        "to_node": "4781513686",
+        "num_lanes": 3,
+        "length_m": 48.13,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "257599159#2",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "6292297613",
+        "to_node": "5099522338",
+        "num_lanes": 2,
+        "length_m": 38.02,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "5099522338"
+      },
+      {
+        "edge_id": "257599158#2",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "6797096150",
+        "to_node": "4436249354",
+        "num_lanes": 1,
+        "length_m": 33.95,
+        "speed_limit_kmh": 80.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "291467468#6",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "1386672283",
+        "to_node": "10956454058",
+        "num_lanes": 3,
+        "length_m": 31.36,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "291467468#8",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "10956454058",
+        "to_node": "267193000",
+        "num_lanes": 3,
+        "length_m": 30.8,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267193000"
+      },
+      {
+        "edge_id": "291467468#5",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "4781513686",
+        "to_node": "1386672283",
+        "num_lanes": 3,
+        "length_m": 7.99,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "257599158#0",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "5099522338",
+        "to_node": "6797096150",
+        "num_lanes": 1,
+        "length_m": 4.48,
+        "speed_limit_kmh": 80.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "257599158#3",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "4436249354",
+        "to_node": "1229469415",
+        "num_lanes": 1,
+        "length_m": 2.39,
+        "speed_limit_kmh": 80.0,
+        "has_traffic_light": true,
+        "tls_id": "1229469415"
+      },
+      {
+        "edge_id": "231094164",
+        "street_name": "Rua XV de Novembro",
+        "from_node": "267193000",
+        "to_node": "cluster_267173142_840597205",
+        "num_lanes": 3,
+        "length_m": 0.2,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_267173142_840597205"
+      }
+    ],
+    "Alameda Doutor Muricy": [
+      {
+        "edge_id": "380939596",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "679715043",
+        "to_node": "679715039",
+        "num_lanes": 2,
+        "length_m": 186.28,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "697619813#2",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "1394053642",
+        "to_node": "267173333",
+        "num_lanes": 3,
+        "length_m": 155.92,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267173333"
+      },
+      {
+        "edge_id": "1107180167",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "679715042",
+        "to_node": "679715043",
+        "num_lanes": 3,
+        "length_m": 146.74,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "679715043"
+      },
+      {
+        "edge_id": "1107180168",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "842326457",
+        "to_node": "679715042",
+        "num_lanes": 3,
+        "length_m": 91.69,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "679715042"
+      },
+      {
+        "edge_id": "1497558629",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "267173333",
+        "to_node": "842326457",
+        "num_lanes": 3,
+        "length_m": 88.83,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "697619813#0",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "1888080839",
+        "to_node": "324351104",
+        "num_lanes": 3,
+        "length_m": 76.48,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "324351104"
+      },
+      {
+        "edge_id": "1049785769#3",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "3611112770",
+        "to_node": "1301304704",
+        "num_lanes": 3,
+        "length_m": 71.46,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1098152881#0",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "271226440",
+        "to_node": "324351099",
+        "num_lanes": 3,
+        "length_m": 64.44,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "697619813#1",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "324351104",
+        "to_node": "1394053642",
+        "num_lanes": 3,
+        "length_m": 45.15,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1049785769#0",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "5265068516",
+        "to_node": "3611112770",
+        "num_lanes": 3,
+        "length_m": 35.07,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "3611112770"
+      },
+      {
+        "edge_id": "1098152881#1",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "324351099",
+        "to_node": "1888080839",
+        "num_lanes": 3,
+        "length_m": 30.66,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "1888080839"
+      },
+      {
+        "edge_id": "1242386613#0",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "1394041998",
+        "to_node": "271226440",
+        "num_lanes": 2,
+        "length_m": 27.6,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1049785769#4",
+        "street_name": "Alameda Doutor Muricy",
+        "from_node": "1301304704",
+        "to_node": "1394041998",
+        "num_lanes": 3,
+        "length_m": 9.53,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      }
+    ],
+    "Rua Martim Afonso": [
+      {
+        "edge_id": "1363581600",
+        "street_name": "Rua Martim Afonso",
+        "from_node": "324342966",
+        "to_node": "1843406606",
+        "num_lanes": 4,
+        "length_m": 74.24,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      }
+    ],
+    "Rua André de Barros": [
+      {
+        "edge_id": "380939603#5",
+        "street_name": "Rua André de Barros",
+        "from_node": "1370740658",
+        "to_node": "267192513",
+        "num_lanes": 4,
+        "length_m": 101.98,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267192513"
+      },
+      {
+        "edge_id": "263505518",
+        "street_name": "Rua André de Barros",
+        "from_node": "cluster_1772923991_267192508",
+        "to_node": "324354661",
+        "num_lanes": 4,
+        "length_m": 98.86,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "324354661"
+      },
+      {
+        "edge_id": "1024709875#0",
+        "street_name": "Rua André de Barros",
+        "from_node": "2047828929",
+        "to_node": "4048054548",
+        "num_lanes": 4,
+        "length_m": 84.55,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "380939603#0",
+        "street_name": "Rua André de Barros",
+        "from_node": "324354661",
+        "to_node": "6294751056",
+        "num_lanes": 4,
+        "length_m": 79.17,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1024709874#1",
+        "street_name": "Rua André de Barros",
+        "from_node": "679715043",
+        "to_node": "cluster_1772923991_267192508",
+        "num_lanes": 4,
+        "length_m": 75.86,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "cluster_1772923991_267192508"
+      },
+      {
+        "edge_id": "693645930#1",
+        "street_name": "Rua André de Barros",
+        "from_node": "cluster_8482726072_850017945",
+        "to_node": "269222334",
+        "num_lanes": 4,
+        "length_m": 69.56,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "269222334"
+      },
+      {
+        "edge_id": "354612980#1",
+        "street_name": "Rua André de Barros",
+        "from_node": "4048054545",
+        "to_node": "9034979459",
+        "num_lanes": 4,
+        "length_m": 65.67,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "380939603#3",
+        "street_name": "Rua André de Barros",
+        "from_node": "267192511",
+        "to_node": "9036708849",
+        "num_lanes": 4,
+        "length_m": 62.37,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1024709874#0",
+        "street_name": "Rua André de Barros",
+        "from_node": "571309058",
+        "to_node": "679715043",
+        "num_lanes": 4,
+        "length_m": 52.36,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "679715043"
+      },
+      {
+        "edge_id": "380939603#4",
+        "street_name": "Rua André de Barros",
+        "from_node": "9036708849",
+        "to_node": "1370740658",
+        "num_lanes": 4,
+        "length_m": 40.19,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "1370740658"
+      },
+      {
+        "edge_id": "380939603#2",
+        "street_name": "Rua André de Barros",
+        "from_node": "8482846788",
+        "to_node": "267192511",
+        "num_lanes": 4,
+        "length_m": 31.52,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267192511"
+      },
+      {
+        "edge_id": "24576630#0",
+        "street_name": "Rua André de Barros",
+        "from_node": "267192513",
+        "to_node": "5945506088",
+        "num_lanes": 3,
+        "length_m": 26.42,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "354612980#2",
+        "street_name": "Rua André de Barros",
+        "from_node": "9034979459",
+        "to_node": "571309058",
+        "num_lanes": 4,
+        "length_m": 22.55,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "571309058"
+      },
+      {
+        "edge_id": "380939603#1",
+        "street_name": "Rua André de Barros",
+        "from_node": "6294751056",
+        "to_node": "8482846788",
+        "num_lanes": 4,
+        "length_m": 18.08,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "693645931",
+        "street_name": "Rua André de Barros",
+        "from_node": "5945506088",
+        "to_node": "cluster_8482726072_850017945",
+        "num_lanes": 4,
+        "length_m": 4.17,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "354612980#0",
+        "street_name": "Rua André de Barros",
+        "from_node": "2036430641",
+        "to_node": "4048054545",
+        "num_lanes": 4,
+        "length_m": 2.06,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1024709875#1",
+        "street_name": "Rua André de Barros",
+        "from_node": "4048054548",
+        "to_node": "2036430641",
+        "num_lanes": 4,
+        "length_m": 0.2,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      }
+    ],
+    "Rua Barão do Rio Branco": [
+      {
+        "edge_id": "380939609#0",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "564395881",
+        "to_node": "5729370629",
+        "num_lanes": 1,
+        "length_m": 117.1,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "380939609#5",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "324354655",
+        "to_node": "267173336",
+        "num_lanes": 1,
+        "length_m": 102.92,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267173336"
+      },
+      {
+        "edge_id": "1098152905",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "267173336",
+        "to_node": "5071229250",
+        "num_lanes": 1,
+        "length_m": 91.02,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "380939609#4",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "324354657",
+        "to_node": "324354655",
+        "num_lanes": 1,
+        "length_m": 87.02,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "324354655"
+      },
+      {
+        "edge_id": "380939609#2",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "267192511",
+        "to_node": "6397774189",
+        "num_lanes": 1,
+        "length_m": 70.34,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "380939609#3",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "6397774189",
+        "to_node": "324354657",
+        "num_lanes": 1,
+        "length_m": 64.45,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "324354657"
+      },
+      {
+        "edge_id": "-1547450041",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "564395700",
+        "to_node": "1427260180",
+        "num_lanes": 2,
+        "length_m": 55.32,
+        "speed_limit_kmh": 100.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "1547450041",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "1427260180",
+        "to_node": "564395700",
+        "num_lanes": 1,
+        "length_m": 55.32,
+        "speed_limit_kmh": 100.0,
+        "has_traffic_light": true,
+        "tls_id": "564395700"
+      },
+      {
+        "edge_id": "380939609#1",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "5729370629",
+        "to_node": "267192511",
+        "num_lanes": 1,
+        "length_m": 53.29,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": true,
+        "tls_id": "267192511"
+      },
+      {
+        "edge_id": "56235265",
+        "street_name": "Rua Barão do Rio Branco",
+        "from_node": "564395700",
+        "to_node": "564395881",
+        "num_lanes": 1,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "564395881"
+      }
+    ],
+    "Rua Monsenhor Celso": [
+      {
+        "edge_id": "84518380",
+        "street_name": "Rua Monsenhor Celso",
+        "from_node": "981997243",
+        "to_node": "269224068",
+        "num_lanes": 1,
+        "length_m": 96.35,
+        "speed_limit_kmh": 20.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "-137441186",
+        "street_name": "Rua Monsenhor Celso",
+        "from_node": "1507657876",
+        "to_node": "269224068",
+        "num_lanes": 1,
+        "length_m": 79.09,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "137441186",
+        "street_name": "Rua Monsenhor Celso",
+        "from_node": "269224068",
+        "to_node": "1507657876",
+        "num_lanes": 1,
+        "length_m": 79.08,
+        "speed_limit_kmh": 40.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      }
+    ],
+    "Avenida Visconde de Guarapuava": [
+      {
+        "edge_id": "163214480#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "12554404086",
+        "to_node": "1228410773",
+        "num_lanes": 3,
+        "length_m": 129.12,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "465279492#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1386672287",
+        "to_node": "1226991198",
+        "num_lanes": 3,
+        "length_m": 107.38,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "1226991198"
+      },
+      {
+        "edge_id": "291468708",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267191310",
+        "to_node": "267191313",
+        "num_lanes": 3,
+        "length_m": 100.25,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "465279493#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267425820",
+        "to_node": "1738398145",
+        "num_lanes": 3,
+        "length_m": 73.08,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "663076749#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "2950101298",
+        "to_node": "267191310",
+        "num_lanes": 3,
+        "length_m": 70.7,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267191310"
+      },
+      {
+        "edge_id": "409826715#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "269222333",
+        "to_node": "267191303",
+        "num_lanes": 3,
+        "length_m": 68.25,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "663076749#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "564395881",
+        "to_node": "2950101298",
+        "num_lanes": 3,
+        "length_m": 62.68,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200327#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "269222058",
+        "to_node": "2656015562",
+        "num_lanes": 3,
+        "length_m": 55.98,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "654376980#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398128",
+        "to_node": "564395881",
+        "num_lanes": 3,
+        "length_m": 55.81,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "564395881"
+      },
+      {
+        "edge_id": "663076751#3",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398108",
+        "to_node": "267425820",
+        "num_lanes": 3,
+        "length_m": 50.74,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267425820"
+      },
+      {
+        "edge_id": "654376980#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267191306",
+        "to_node": "1738398128",
+        "num_lanes": 3,
+        "length_m": 47.75,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200328#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "846529472",
+        "to_node": "1738398179",
+        "num_lanes": 3,
+        "length_m": 46.37,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200329#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398154",
+        "to_node": "269222333",
+        "num_lanes": 3,
+        "length_m": 45.05,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "269222333"
+      },
+      {
+        "edge_id": "409826715#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267191303",
+        "to_node": "269222058",
+        "num_lanes": 3,
+        "length_m": 44.58,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "269222058"
+      },
+      {
+        "edge_id": "55200326#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398160",
+        "to_node": "564395700",
+        "num_lanes": 3,
+        "length_m": 43.03,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "564395700"
+      },
+      {
+        "edge_id": "663076758",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398114",
+        "to_node": "267425818",
+        "num_lanes": 3,
+        "length_m": 42.12,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267425818"
+      },
+      {
+        "edge_id": "55200327#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "2656015562",
+        "to_node": "267191306",
+        "num_lanes": 3,
+        "length_m": 41.62,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267191306"
+      },
+      {
+        "edge_id": "113798872#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "846529455",
+        "to_node": "1738398139",
+        "num_lanes": 3,
+        "length_m": 40.82,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "465279493#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398145",
+        "to_node": "1386672287",
+        "num_lanes": 3,
+        "length_m": 39.09,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "1386672287"
+      },
+      {
+        "edge_id": "231092960#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398096",
+        "to_node": "267192999",
+        "num_lanes": 3,
+        "length_m": 35.52,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267192999"
+      },
+      {
+        "edge_id": "55200329#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267192095",
+        "to_node": "9036708879",
+        "num_lanes": 3,
+        "length_m": 33.34,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "231092960#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1363005353",
+        "to_node": "1738398096",
+        "num_lanes": 3,
+        "length_m": 28.46,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200326#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1226991198",
+        "to_node": "8482846796",
+        "num_lanes": 3,
+        "length_m": 23.35,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "113798872#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398139",
+        "to_node": "267192095",
+        "num_lanes": 3,
+        "length_m": 20.8,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267192095"
+      },
+      {
+        "edge_id": "55200326#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "8482846796",
+        "to_node": "1738398160",
+        "num_lanes": 3,
+        "length_m": 19.92,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "663076751#2",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "8488034813",
+        "to_node": "1738398108",
+        "num_lanes": 3,
+        "length_m": 17.94,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "663076751#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267192094",
+        "to_node": "1857340710",
+        "num_lanes": 3,
+        "length_m": 13.5,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "663076752",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398179",
+        "to_node": "267192094",
+        "num_lanes": 2,
+        "length_m": 13.32,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267192094"
+      },
+      {
+        "edge_id": "55200329#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "9036708879",
+        "to_node": "1738398154",
+        "num_lanes": 3,
+        "length_m": 8.42,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "163214480#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "564395700",
+        "to_node": "12554404086",
+        "num_lanes": 3,
+        "length_m": 3.23,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "663076751#1",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1857340710",
+        "to_node": "8488034813",
+        "num_lanes": 3,
+        "length_m": 1.4,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "161885247",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398114",
+        "to_node": "1738398096",
+        "num_lanes": 1,
+        "length_m": 0.29,
+        "speed_limit_kmh": 30.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "113798872#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267191300",
+        "to_node": "846529455",
+        "num_lanes": 3,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "113798873",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267192999",
+        "to_node": "267191300",
+        "num_lanes": 3,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267191300"
+      },
+      {
+        "edge_id": "161885238",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398128",
+        "to_node": "1738398160",
+        "num_lanes": 1,
+        "length_m": 0.2,
+        "speed_limit_kmh": 30.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "161885242",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267191303",
+        "to_node": "1738398145",
+        "num_lanes": 1,
+        "length_m": 0.2,
+        "speed_limit_kmh": 30.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "161885244",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398108",
+        "to_node": "1738398154",
+        "num_lanes": 1,
+        "length_m": 0.2,
+        "speed_limit_kmh": 30.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "161885250",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "1738398139",
+        "to_node": "1738398179",
+        "num_lanes": 1,
+        "length_m": 0.2,
+        "speed_limit_kmh": 30.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200328#0",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267425819",
+        "to_node": "846529472",
+        "num_lanes": 3,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": false,
+        "tls_id": null
+      },
+      {
+        "edge_id": "55200331",
+        "street_name": "Avenida Visconde de Guarapuava",
+        "from_node": "267425818",
+        "to_node": "267425819",
+        "num_lanes": 3,
+        "length_m": 0.2,
+        "speed_limit_kmh": 50.0,
+        "has_traffic_light": true,
+        "tls_id": "267425819"
+      }
+    ],
+    "Avenida Presidente Kennedy": [],
+    "Avenida Mário Tourinho": []
+  }
+}

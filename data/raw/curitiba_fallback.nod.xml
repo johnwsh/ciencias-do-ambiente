@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Eixo Norte: Rua XV de Novembro / Calçadão -->
+    <node id="n_muricy_xv" x="200.0" y="1000.0" type="traffic_light"/>
+    <node id="n_floriano_xv" x="600.0" y="1000.0" type="traffic_light"/>
+    <node id="n_mariano_xv" x="1000.0" y="1000.0" type="traffic_light"/>
+    <node id="n_xv_leste" x="1350.0" y="1000.0" type="priority"/>
+    <node id="n_martim_norte" x="0.0" y="1000.0" type="priority"/>
+
+    <!-- Eixo Intermediário Central: Rua Monsenhor Celso / Rua Marechal Deodoro -->
+    <node id="n_tourinho_deodoro" x="0.0" y="700.0" type="traffic_light"/>
+    <node id="n_muricy_deodoro" x="200.0" y="700.0" type="traffic_light"/>
+    <node id="n_floriano_deodoro" x="600.0" y="700.0" type="traffic_light"/>
+    <node id="n_mariano_deodoro" x="1000.0" y="700.0" type="traffic_light"/>
+    <node id="n_deodoro_leste" x="1350.0" y="700.0" type="priority"/>
+
+    <!-- Eixo Saída Centro: Rua André de Barros / Praça Rui Barbosa -->
+    <node id="n_tourinho_andre" x="0.0" y="400.0" type="traffic_light"/>
+    <node id="n_muricy_andre" x="200.0" y="400.0" type="traffic_light"/>
+    <node id="n_floriano_andre" x="600.0" y="400.0" type="traffic_light"/>
+    <node id="n_mariano_andre" x="1000.0" y="400.0" type="traffic_light"/>
+    <node id="n_andre_leste" x="1350.0" y="400.0" type="priority"/>
+
+    <!-- Eixo Sul: Av. Visconde de Guarapuava / Conexão Av. Pres. Kennedy -->
+    <node id="n_tourinho_kennedy" x="0.0" y="100.0" type="traffic_light"/>
+    <node id="n_muricy_kennedy" x="200.0" y="100.0" type="traffic_light"/>
+    <node id="n_floriano_kennedy" x="600.0" y="100.0" type="traffic_light"/>
+    <node id="n_mariano_kennedy" x="1000.0" y="100.0" type="traffic_light"/>
+    <node id="n_kennedy_leste" x="1350.0" y="100.0" type="priority"/>
+
+    <!-- Alimentadores extremos Norte e Sul -->
+    <node id="n_muricy_ext_n" x="200.0" y="1250.0" type="priority"/>
+    <node id="n_floriano_ext_n" x="600.0" y="1250.0" type="priority"/>
+    <node id="n_mariano_ext_n" x="1000.0" y="1250.0" type="priority"/>
+    <node id="n_muricy_ext_s" x="200.0" y="-150.0" type="priority"/>
+    <node id="n_floriano_ext_s" x="600.0" y="-150.0" type="priority"/>
+    <node id="n_mariano_ext_s" x="1000.0" y="-150.0" type="priority"/>
+</nodes>

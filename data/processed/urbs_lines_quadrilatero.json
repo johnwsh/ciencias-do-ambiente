@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "source": "https://dadosabertos.c3sl.ufpr.br/curitiba/TransporteColetivo/TransporteColetivo.xml",
+    "status": "online_verified",
+    "titulo": "Transporte Coletivo de Curitiba",
+    "orgao": "Urbanização de Curitiba S.A. - URBS",
+    "descricao": "Dados do transporte coletivo de Curitiba, disponibilizado via WebService contendo informações como: Arquivo GTFS, Linhas, Pontos, Itinerários, Posição dos Veículos e Horários de Tabelas.",
+    "frequencia": "Tempo Real"
+  },
+  "total_lines_mapped": 10,
+  "lines": [
+    {
+      "codigo": "500",
+      "nome": "LIGEIRÃO BOQUEIRÃO",
+      "categoria": "Expresso Biarticulado (BRT)",
+      "tipo_veiculo": "urbs_biarticulado",
+      "corredor_principal": "Avenida Marechal Floriano Peixoto",
+      "vias_itinerario": [
+        "Avenida Marechal Floriano Peixoto"
+      ],
+      "terminais": "Terminal Boqueirão <-> Praça Carlos Gomes",
+      "headway_pico_min": 3.0,
+      "headway_entre_pico_min": 6.0,
+      "capacidade_passageiros": 250,
+      "faixa_exclusiva": true
+    },
+    {
+      "codigo": "502",
+      "nome": "CIRCULAR SUL (HORÁRIO)",
+      "categoria": "Expresso Biarticulado (BRT)",
+      "tipo_veiculo": "urbs_biarticulado",
+      "corredor_principal": "Avenida Marechal Floriano Peixoto",
+      "vias_itinerario": [
+        "Avenida Marechal Floriano Peixoto",
+        "Avenida Presidente Kennedy"
+      ],
+      "terminais": "Praça Rui Barbosa / Boqueirão / Pinheirinho",
+      "headway_pico_min": 4.0,
+      "headway_entre_pico_min": 8.0,
+      "capacidade_passageiros": 250,
+      "faixa_exclusiva": true
+    },
+    {
+      "codigo": "203",
+      "nome": "SANTA CÂNDIDA / CAPÃO RASO",
+      "categoria": "Expresso Biarticulado (BRT)",
+      "tipo_veiculo": "urbs_biarticulado",
+      "corredor_principal": "Avenida Visconde de Guarapuava",
+      "vias_itinerario": [
+        "Avenida Visconde de Guarapuava",
+        "Rua Barão do Rio Branco"
+      ],
+      "terminais": "Santa Cândida <-> Capão Raso (Eixo Norte-Sul)",
+      "headway_pico_min": 2.5,
+      "headway_entre_pico_min": 5.0,
+      "capacidade_passageiros": 270,
+      "faixa_exclusiva": true
+    },
+    {
+      "codigo": "303",
+      "nome": "CENTENÁRIO / CAMPO COMPRIDO",
+      "categoria": "Expresso Biarticulado (BRT)",
+      "tipo_veiculo": "urbs_biarticulado",
+      "corredor_principal": "Rua Mariano Torres",
+      "vias_itinerario": [
+        "Rua Mariano Torres",
+        "Avenida Visconde de Guarapuava"
+      ],
+      "terminais": "Terminal Centenário <-> Terminal Campo Comprido (Eixo Leste-Oeste)",
+      "headway_pico_min": 3.0,
+      "headway_entre_pico_min": 6.0,
+      "capacidade_passageiros": 250,
+      "faixa_exclusiva": true
+    },
+    {
+      "codigo": "304",
+      "nome": "PINHAIS / CAMPO COMPRIDO",
+      "categoria": "Ligeirinho (Direto)",
+      "tipo_veiculo": "urbs_padron",
+      "corredor_principal": "Rua Mariano Torres",
+      "vias_itinerario": [
+        "Rua Mariano Torres",
+        "Rua XV de Novembro"
+      ],
+      "terminais": "Terminal Pinhais <-> Estação Tubo Mariano Torres <-> Campo Comprido",
+      "headway_pico_min": 4.5,
+      "headway_entre_pico_min": 9.0,
+      "capacidade_passageiros": 110,
+      "faixa_exclusiva": false
+    },
+    {
+      "codigo": "505",
+      "nome": "BOQUEIRÃO / CENTRO CÍVICO",
+      "categoria": "Ligeirinho (Direto)",
+      "tipo_veiculo": "urbs_padron",
+      "corredor_principal": "Rua Mariano Torres",
+      "vias_itinerario": [
+        "Avenida Marechal Floriano Peixoto",
+        "Rua Mariano Torres"
+      ],
+      "terminais": "Terminal Boqueirão <-> Estação Tubo Mariano Torres <-> Centro Cívico",
+      "headway_pico_min": 5.0,
+      "headway_entre_pico_min": 10.0,
+      "capacidade_passageiros": 110,
+      "faixa_exclusiva": false
+    },
+    {
+      "codigo": "365",
+      "nome": "JARDIM SOCIAL / BATEL",
+      "categoria": "Convencional Urbano",
+      "tipo_veiculo": "urbs_convencional",
+      "corredor_principal": "Rua XV de Novembro",
+      "vias_itinerario": [
+        "Rua XV de Novembro",
+        "Rua Mariano Torres",
+        "Rua André de Barros"
+      ],
+      "terminais": "Jardim Social <-> Centro <-> Batel (Av. Mário Tourinho)",
+      "headway_pico_min": 8.0,
+      "headway_entre_pico_min": 15.0,
+      "capacidade_passageiros": 85,
+      "faixa_exclusiva": false
+    },
+    {
+      "codigo": "380",
+      "nome": "DETRAN / VICENTE MACHADO",
+      "categoria": "Convencional Urbano",
+      "tipo_veiculo": "urbs_convencional",
+      "corredor_principal": "Rua André de Barros",
+      "vias_itinerario": [
+        "Rua XV de Novembro",
+        "Rua Mariano Torres",
+        "Rua André de Barros",
+        "Alameda Doutor Muricy"
+      ],
+      "terminais": "Tarumã / Detran <-> Quadrilátero Central <-> Batel",
+      "headway_pico_min": 7.5,
+      "headway_entre_pico_min": 14.0,
+      "capacidade_passageiros": 85,
+      "faixa_exclusiva": false
+    },
+    {
+      "codigo": "464",
+      "nome": "ALCIDES MUNHOZ / JARDIM BOTÂNICO",
+      "categoria": "Convencional Urbano",
+      "tipo_veiculo": "urbs_convencional",
+      "corredor_principal": "Alameda Doutor Muricy",
+      "vias_itinerario": [
+        "Alameda Doutor Muricy",
+        "Rua Monsenhor Celso",
+        "Rua Mariano Torres"
+      ],
+      "terminais": "Alcides Munhoz <-> Praça Tiradentes <-> Jardim Botânico",
+      "headway_pico_min": 9.0,
+      "headway_entre_pico_min": 16.0,
+      "capacidade_passageiros": 85,
+      "faixa_exclusiva": false
+    },
+    {
+      "codigo": "010",
+      "nome": "INTERBAIRROS I (HORÁRIO / ANTI-HORÁRIO)",
+      "categoria": "Interbairros",
+      "tipo_veiculo": "urbs_articulado",
+      "corredor_principal": "Avenida Mário Tourinho",
+      "vias_itinerario": [
+        "Avenida Mário Tourinho",
+        "Rua Martim Afonso",
+        "Avenida Presidente Kennedy"
+      ],
+      "terminais": "Anel Interbairros I (Mário Tourinho / Kennedy / Centro Cívico)",
+      "headway_pico_min": 6.0,
+      "headway_entre_pico_min": 12.0,
+      "capacidade_passageiros": 160,
+      "faixa_exclusiva": false
+    }
+  ]
+}

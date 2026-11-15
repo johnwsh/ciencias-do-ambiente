@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Rua Mariano Torres (Arterial Norte->Sul e Sul->Norte, 3 faixas, muito crítica) -->
+    <edge id="mariano_torres_n1" from="n_mariano_ext_n" to="n_mariano_xv" name="Rua Mariano Torres" numLanes="3" speed="13.89"/>
+    <edge id="mariano_torres_n2" from="n_mariano_xv" to="n_mariano_deodoro" name="Rua Mariano Torres" numLanes="3" speed="13.89"/>
+    <edge id="mariano_torres_n3" from="n_mariano_deodoro" to="n_mariano_andre" name="Rua Mariano Torres" numLanes="3" speed="13.89"/>
+    <edge id="mariano_torres_n4" from="n_mariano_andre" to="n_mariano_kennedy" name="Rua Mariano Torres" numLanes="3" speed="13.89"/>
+    <edge id="mariano_torres_n5" from="n_mariano_kennedy" to="n_mariano_ext_s" name="Rua Mariano Torres" numLanes="3" speed="13.89"/>
+
+    <edge id="mariano_torres_s1" from="n_mariano_ext_s" to="n_mariano_kennedy" name="Rua Mariano Torres" numLanes="2" speed="13.89"/>
+    <edge id="mariano_torres_s2" from="n_mariano_kennedy" to="n_mariano_andre" name="Rua Mariano Torres" numLanes="2" speed="13.89"/>
+    <edge id="mariano_torres_s3" from="n_mariano_andre" to="n_mariano_deodoro" name="Rua Mariano Torres" numLanes="2" speed="13.89"/>
+    <edge id="mariano_torres_s4" from="n_mariano_deodoro" to="n_mariano_xv" name="Rua Mariano Torres" numLanes="2" speed="13.89"/>
+    <edge id="mariano_torres_s5" from="n_mariano_xv" to="n_mariano_ext_n" name="Rua Mariano Torres" numLanes="2" speed="13.89"/>
+
+    <!-- Av. Marechal Floriano Peixoto (Eixo Central Sul-Norte / Norte-Sul + BRT) -->
+    <edge id="floriano_peixoto_s1" from="n_floriano_ext_s" to="n_floriano_kennedy" name="Avenida Marechal Floriano Peixoto" numLanes="3" speed="13.89"/>
+    <edge id="floriano_peixoto_s2" from="n_floriano_kennedy" to="n_floriano_andre" name="Avenida Marechal Floriano Peixoto" numLanes="3" speed="13.89"/>
+    <edge id="floriano_peixoto_s3" from="n_floriano_andre" to="n_floriano_deodoro" name="Avenida Marechal Floriano Peixoto" numLanes="2" speed="11.11"/>
+    <edge id="floriano_peixoto_s4" from="n_floriano_deodoro" to="n_floriano_xv" name="Avenida Marechal Floriano Peixoto" numLanes="2" speed="11.11"/>
+    <edge id="floriano_peixoto_s5" from="n_floriano_xv" to="n_floriano_ext_n" name="Avenida Marechal Floriano Peixoto" numLanes="2" speed="11.11"/>
+
+    <edge id="floriano_peixoto_n1" from="n_floriano_ext_n" to="n_floriano_xv" name="Avenida Marechal Floriano Peixoto" numLanes="2" speed="11.11"/>
+    <edge id="floriano_peixoto_n2" from="n_floriano_xv" to="n_floriano_deodoro" name="Avenida Marechal Floriano Peixoto" numLanes="2" speed="11.11"/>
+    <edge id="floriano_peixoto_n3" from="n_floriano_deodoro" to="n_floriano_andre" name="Avenida Marechal Floriano Peixoto" numLanes="2" speed="11.11"/>
+    <edge id="floriano_peixoto_n4" from="n_floriano_andre" to="n_floriano_kennedy" name="Avenida Marechal Floriano Peixoto" numLanes="3" speed="13.89"/>
+    <edge id="floriano_peixoto_n5" from="n_floriano_kennedy" to="n_floriano_ext_s" name="Avenida Marechal Floriano Peixoto" numLanes="3" speed="13.89"/>
+
+    <!-- Alameda Doutor Muricy (Mão única Sul -> Norte no trecho central) -->
+    <edge id="alameda_muricy_1" from="n_muricy_ext_s" to="n_muricy_kennedy" name="Alameda Doutor Muricy" numLanes="2" speed="11.11"/>
+    <edge id="alameda_muricy_2" from="n_muricy_kennedy" to="n_muricy_andre" name="Alameda Doutor Muricy" numLanes="2" speed="11.11"/>
+    <edge id="alameda_muricy_3" from="n_muricy_andre" to="n_muricy_deodoro" name="Alameda Doutor Muricy" numLanes="2" speed="11.11"/>
+    <edge id="alameda_muricy_4" from="n_muricy_deodoro" to="n_muricy_xv" name="Alameda Doutor Muricy" numLanes="2" speed="11.11"/>
+    <edge id="alameda_muricy_5" from="n_muricy_xv" to="n_muricy_ext_n" name="Alameda Doutor Muricy" numLanes="2" speed="11.11"/>
+
+    <!-- Av. Mário Tourinho / Rua Martim Afonso (Oeste) -->
+    <edge id="mario_tourinho_n1" from="n_martim_norte" to="n_tourinho_deodoro" name="Avenida Mário Tourinho" numLanes="3" speed="16.67"/>
+    <edge id="mario_tourinho_n2" from="n_tourinho_deodoro" to="n_tourinho_andre" name="Avenida Mário Tourinho" numLanes="3" speed="16.67"/>
+    <edge id="mario_tourinho_n3" from="n_tourinho_andre" to="n_tourinho_kennedy" name="Avenida Mário Tourinho" numLanes="3" speed="16.67"/>
+    <edge id="mario_tourinho_s1" from="n_tourinho_kennedy" to="n_tourinho_andre" name="Avenida Mário Tourinho" numLanes="3" speed="16.67"/>
+    <edge id="mario_tourinho_s2" from="n_tourinho_andre" to="n_tourinho_deodoro" name="Avenida Mário Tourinho" numLanes="3" speed="16.67"/>
+    <edge id="mario_tourinho_s3" from="n_tourinho_deodoro" to="n_martim_norte" name="Rua Martim Afonso" numLanes="2" speed="13.89"/>
+
+    <!-- Rua XV de Novembro / Rua Martim Afonso (Oeste <-> Leste) -->
+    <edge id="martim_afonso_w1" from="n_martim_norte" to="n_muricy_xv" name="Rua Martim Afonso" numLanes="2" speed="11.11"/>
+    <edge id="rua_xv_1" from="n_muricy_xv" to="n_floriano_xv" name="Rua XV de Novembro" numLanes="1" speed="8.33"/>
+    <edge id="rua_xv_2" from="n_floriano_xv" to="n_mariano_xv" name="Rua XV de Novembro" numLanes="2" speed="11.11"/>
+    <edge id="rua_xv_3" from="n_mariano_xv" to="n_xv_leste" name="Rua XV de Novembro" numLanes="3" speed="13.89"/>
+    <edge id="rua_xv_rev_3" from="n_xv_leste" to="n_mariano_xv" name="Rua XV de Novembro" numLanes="2" speed="13.89"/>
+
+    <!-- Rua Marechal Deodoro / Rua Monsenhor Celso (Mão única Leste -> Oeste) -->
+    <edge id="monsenhor_celso_1" from="n_deodoro_leste" to="n_mariano_deodoro" name="Rua Marechal Deodoro" numLanes="2" speed="11.11"/>
+    <edge id="monsenhor_celso_2" from="n_mariano_deodoro" to="n_floriano_deodoro" name="Rua Marechal Deodoro" numLanes="2" speed="11.11"/>
+    <edge id="monsenhor_celso_3" from="n_floriano_deodoro" to="n_muricy_deodoro" name="Rua Monsenhor Celso" numLanes="2" speed="11.11"/>
+    <edge id="monsenhor_celso_4" from="n_muricy_deodoro" to="n_tourinho_deodoro" name="Rua Monsenhor Celso" numLanes="2" speed="11.11"/>
+
+    <!-- Rua André de Barros (Mão única Oeste -> Leste, escoamento intenso do Centro) -->
+    <edge id="andre_barros_1" from="n_tourinho_andre" to="n_muricy_andre" name="Rua André de Barros" numLanes="3" speed="13.89"/>
+    <edge id="andre_barros_2" from="n_muricy_andre" to="n_floriano_andre" name="Rua André de Barros" numLanes="3" speed="13.89"/>
+    <edge id="andre_barros_3" from="n_floriano_andre" to="n_mariano_andre" name="Rua André de Barros" numLanes="3" speed="13.89"/>
+    <edge id="andre_barros_4" from="n_mariano_andre" to="n_andre_leste" name="Rua André de Barros" numLanes="3" speed="13.89"/>
+
+    <!-- Av. Presidente Kennedy / Av. Visconde de Guarapuava (Eixo Sul) -->
+    <edge id="pres_kennedy_e1" from="n_tourinho_kennedy" to="n_muricy_kennedy" name="Avenida Presidente Kennedy" numLanes="3" speed="16.67"/>
+    <edge id="pres_kennedy_e2" from="n_muricy_kennedy" to="n_floriano_kennedy" name="Avenida Presidente Kennedy" numLanes="3" speed="16.67"/>
+    <edge id="pres_kennedy_e3" from="n_floriano_kennedy" to="n_mariano_kennedy" name="Avenida Presidente Kennedy" numLanes="3" speed="16.67"/>
+    <edge id="pres_kennedy_e4" from="n_mariano_kennedy" to="n_kennedy_leste" name="Avenida Presidente Kennedy" numLanes="3" speed="16.67"/>
+
+    <edge id="visc_guarapuava_w1" from="n_kennedy_leste" to="n_mariano_kennedy" name="Avenida Visconde de Guarapuava" numLanes="4" speed="16.67"/>
+    <edge id="visc_guarapuava_w2" from="n_mariano_kennedy" to="n_floriano_kennedy" name="Avenida Visconde de Guarapuava" numLanes="4" speed="16.67"/>
+    <edge id="visc_guarapuava_w3" from="n_floriano_kennedy" to="n_muricy_kennedy" name="Avenida Visconde de Guarapuava" numLanes="4" speed="16.67"/>
+    <edge id="visc_guarapuava_w4" from="n_muricy_kennedy" to="n_tourinho_kennedy" name="Avenida Visconde de Guarapuava" numLanes="4" speed="16.67"/>
+</edges>
